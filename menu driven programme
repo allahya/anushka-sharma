@@ -1,0 +1,34 @@
+#include<stdio.h>
+main()
+{ printf("WELCOME TO THE FRANCAIS HOLLANDE \n");
+  printf("ENTER YOUR CHOICE: \n1 CROISSANT Rs200\n2. PAIN AU CHOCOLAT Rs 300\n3. BAGGUETTE Rs 205\n4. POT AU FEU Rs 500\n5. MANAKISH Rs 800");
+  int choice=0;
+  scanf("%d",&choice);
+  switch (choice)
+  {
+	case 1:
+		printf("you have chosen CROISSANT\n Rs 200");
+		break;         
+	    
+	case 2:
+		printf("you have chosen PAIN AU CHOCOLAT\n Rs 300");
+	    break;      
+		
+	case 3:
+		printf("you have chosen BAGGUETTE\n Rs 205");
+		break;    
+		
+	case 4:
+		printf("you have chosen POT AU FEU\n Rs 500");
+	    break;      
+		
+	case 5:
+		printf("you have chosen MANAKISH\n Rs 800");
+		break;  
+	default:
+		printf("wrong choice chose something else");    	
+	  
+  }	
+	
+	
+}
